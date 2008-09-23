@@ -1,0 +1,14 @@
+;; Object semantic.cache
+;; SEMANTICDB Tags save file
+(semanticdb-project-database "semantic.cache"
+  :file "semantic.cache"
+  :tables (list 
+   (semanticdb-table "Cage.java"
+    :file "Cage.java"
+    :pointmax 303
+    :major-mode 'java-mode
+    :tokens '(("eg.jtestr" package nil nil nil [1 19]) ("java.util.ArrayList" include nil nil nil [21 48]) ("java.util.List" include nil nil nil [49 71]) ("Cage" type "class" (("contents" variable "List" nil ((typemodifiers "private")) nil ((reparse-symbol . class_body_declarations)) [99 139]) ("add" function "void" (("animal" variable "Animal" nil nil nil ((reparse-symbol . formal_parameter_list)) [165 178])) ((typemodifiers "public")) nil ((reparse-symbol . class_body_declarations)) [149 215]) ("numberOfAnimals" function "int" nil ((typemodifiers "public")) nil ((reparse-symbol . class_body_declarations)) [221 287])) nil ((typemodifiers "public")) nil nil [74 294]))
+    :unmatched-syntax '((close-paren 216 . 217) (close-paren 178 . 179) (open-paren 164 . 165) (open-paren 93 . 94))
+    )
+   )
+  )

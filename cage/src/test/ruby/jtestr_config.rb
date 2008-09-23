@@ -1,0 +1,2 @@
+rspec_formatter "specdoc"
+
